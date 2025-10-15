@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import ProductMatcher from "./components/ProductMatcher";
+const App = () => {
+    return (_jsxs("div", { className: "min-h-screen bg-primary-50/30 text-primary-700", children: [_jsx("header", { className: "border-b border-primary-100/60 bg-white/85 backdrop-blur", children: _jsxs("div", { className: "mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 sm:flex-row sm:items-center sm:justify-between", children: [_jsxs("div", { children: [_jsx("h1", { className: "text-2xl font-semibold text-primary-700 sm:text-3xl", children: "Visual Product Matcher" }), _jsx("p", { className: "text-sm text-primary-600/90", children: "Discover catalogue items that look like your inspiration photo." })] }), _jsx("a", { href: "https://linktr.ee/isatyamshivam", target: "_blank", rel: "noreferrer", className: "inline-flex items-center gap-2 rounded-full border border-primary-200 bg-gradient-to-r from-primary-200/80 via-primary-100 to-primary-50 px-4 py-2 text-sm font-medium text-primary-700 shadow-soft transition hover:from-primary-200 hover:via-primary-100 hover:to-primary-100", children: "Developer's Details" })] }) }), _jsx("main", { className: "mx-auto max-w-6xl px-6 pb-16 pt-10", children: _jsx(ProductMatcher, {}) })] }));
+};
+export default App;
